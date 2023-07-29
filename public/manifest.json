@@ -2,7 +2,7 @@
   "name": "5prayers",
   "start_url": "/?source=pwa",
   "background_color": "#3367D6",
-  "display": "fullscreen",
+  "display": "standalone",
   "theme_color": "#3367D6",
   "description": "A simple prayer times app",
   "icons": [{ "src": "5prayers.png", "type": "image/png", "sizes": "500x500" }]
