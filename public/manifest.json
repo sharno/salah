@@ -5,5 +5,5 @@
   "display": "minimal-ui",
   "theme_color": "#3367D6",
   "description": "A simple prayer times app",
-  "icons": [{ "src": "5Prayers.png", "type": "image/png", "sizes": "500x500" }]
+  "icons": [{ "src": "5prayers.png", "type": "image/png", "sizes": "500x500" }]
 }
