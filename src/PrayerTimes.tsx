@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 
 function fetchTimings(city: string, country: string) {
-  const url = `https://api.aladhan.com/v1/timingsByCity/29-07-2023?city=${city}&country=${country}`;
+  const date = new Date();
+  const day = date.getDate();
+  const month = date.getMonth() + 1;
+  const year = date.getFullYear();
+  const url = `https://api.aladhan.com/v1/timingsByCity/${day}-${month}-${year}?city=${city}&country=${country}`;
   return fetch(url)
     .then((res) => res.json())
     .then((res) => res.data);
